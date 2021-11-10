@@ -4,7 +4,12 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+.background {
+  background-image: url('ocean.jpg');
+  background-size: cover;
 }
 
 code {
@@ -34,7 +39,7 @@ code {
 }
 
 p {
-  color: black;
+  color: rgb(0, 255, 85);
   text-align: center;
   font-size: 20px;
 }
